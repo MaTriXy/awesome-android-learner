@@ -7,13 +7,15 @@ Another Awesome for those who are searching a *study guide* for android developm
 You can find interesting posts, tools, plugins, open source apps, everything that may help to develop more and better android things.
 
 # Random
+* [Gitlab-ci Toolbox for Android](http://blog.makingiants.com/gitlabci-toolbox-for-android/): guide to setup your own gitlab ci runner with useful scripts for android.
 * [Futurice - best practices](https://github.com/futurice/android-best-practices): Cool updated list of great practices to follow.
 * [Android Study Group conferences list](http://androidstudygroup.github.io/conferences/): list of upcoming and old conferences. WOW!
 * [Wireless debug](https://developer.android.com/studio/command-line/adb.html): how to develop without connect your device through USB.
-* [Clean Architecture](http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/): one way to architect your apps.
+* [Clean Architecture](https://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/): one way to architect your apps.
 * [Elminating code overhead - Square 2015](https://speakerdeck.com/jakewharton/eliminating-code-overhead-square-hq-2015): Android performance ideas to use from Jacke Warthon.
-* [Jake Wharton - testing robots](https://realm.io/news/kau-jake-wharton-testing-robots/): a testing maintainability idea.
-* [Android Scripts](https://github.com/caipivara/android-scripts): list of scripts that show how to install dependencies from a terminal, copy env variables to gradle.properties files easy, etc...
+<<<<<<< HEAD
+* [Jake Wharton - testing robots](https://academy.realm.io/posts/kau-jake-wharton-testing-robots/): a testing maintainability idea.
+* [Android Scripts](https://github.com/caipivara/awesome-android-scripts): list of scripts that show how to install dependencies from a terminal, copy env variables to gradle.properties files easy, etc...
 
 # Books
 * [Android-Development-Patterns-Professional-Developers](https://www.amazon.com/Android-Development-Patterns-Professional-Developers/dp/0133923681): list of patterns for android development.
@@ -21,6 +23,9 @@ You can find interesting posts, tools, plugins, open source apps, everything tha
 * [JavaRX Essentials](https://www.amazon.com/RxJava-Essentials-Ivan-Morgillo/dp/1784399108 ): Cool book to learn the cool javaRX.
 * [Async Android](https://www.amazon.com/Asynchronous-Android-Steve-Liles/dp/1783286873 ): Async usages for Android.
 * [Retrofit love working with apis on android](https://leanpub.com/retrofit-love-working-with-apis-on-android): Learn all about Retrofit.
+* [Picasso: Easy Image Loading on Android](https://leanpub.com/picasso-image-loading-on-android): Learn all about loading images with Picasso
+* [Glide: Customizable  Image Loading on Android](https://leanpub.com/glide-image-loading-on-android): Learn all about loading images with Glide
+* [Gson: Enjoy JSON (De-)Serialization in Java](https://leanpub.com/gson-enjoy-json-deserialization-in-java): Learn all about Gson
 
 # Meetups/Talks/Videos
 * [Droidcon NYC 2016 - Espresso: A Screenshot is Worth 1,000 Words](https://www.youtube.com/watch?v=fhx_Ji5s3p4): testing experiences with espresso.
@@ -31,8 +36,10 @@ You can find interesting posts, tools, plugins, open source apps, everything tha
 # Podcasts
 * [Fragmented podcast](http://fragmentedpodcast.com/): Donn Felker and other folks talking about android, follow on [twitter](https://twitter.com/FragmentedCast).
 * [Talking Kotlin](http://talkingkotlin.com/extensions-with-jake-wharton/): podcast focused on Kotlin.
+* [Android Backstage](http://androidbackstage.blogspot.com.co/): google engineers talking about android.
 
 # Posts
+* [A successful XML naming convention/Jeroen Mols](https://jeroenmols.com/blog/2016/03/07/resourcenaming/): good tips about ids to make your apps more maintainable.
 * [Android studio tips tricks](https://medium.com/@mmbialas/50-android-studio-tips-tricks-resources-you-should-be-familiar-with-as-an-android-developer-af86e7cf56d2#.y9qzrinr6): cool  setups and tips for Android Studio.
 * [Understanding Android Naming Conventions](https://jasonatwood.io/archives/1423): explains the idea behind each basic class of android framework to avoid confusions.
 * [Enable Lollipop colors/icon for chrome](https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android): you can add colors and icon to chrome bar to make you site beautiful and theme based on mobile.
@@ -45,16 +52,21 @@ You can find interesting posts, tools, plugins, open source apps, everything tha
 * [Why use volley](https://developer.android.com/training/volley/index.html): cool explanation volley (wow).
 * [Make Apps Beautiful](https://www.youtube.com/watch?v=CWIc6QE6iNc&list=UUVHFbqXqoYvEWM1Ddxl0QDg): Video to make the apps see beatiful.
 * [Image load - Glide vs Picasso?](http://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en): Comparation from image loading images.
-* [Which android http library to use](https://packetzoom.com/blog/which-android-http-library-to-use.html): cool explanation for http requests and libraries.
 * [Activity launch modes](http://inthecheesefactory.com/blog/understand-android-activity-launchmode/en): launch modes explanation.
 * [AutocompleteTextView examples (including address autocomplete)](http://android.foxykeep.com/dev/how-to-add-autocompletion-to-an-edittext): autotomplete address, accounts and more to copy and paste.
 * [6 Things I wish I knew before I wrote my first app](https://www.philosophicalhacker.com/2015/07/09/6-things-i-wish-i-knew-before-i-wrote-my-first-android-app/): base concepts to learn and avoid performance problems.
-* [Android performance - Omertsimsek](http://www.slideshare.net/omertsimsek/andromance-android-performance-devfest-ankara-2013?qid=7c54c68a-2d60-44ce-b4c8-d5bff3477727&v=qf1&b&from_search=8): because performance matterns there are cool slides about.
+* [Android performance - Omertsimsek](https://www.slideshare.net/omertsimsek/andromance-android-performance-devfest-ankara-2013?qid=7c54c68a-2d60-44ce-b4c8-d5bff3477727&v=qf1&b&from_search=8): because performance matterns there are cool slides about.
 * [Espresso 2.0 presentation](https://docs.google.com/presentation/d/1EtFKPluGiuxZcr4W_cAziEY_--wbY_1otw44XEBv7JA/edit#slide=id.g98a986571_0_184): Testing with espresso 2.0.idcon-whats-new-in-android-testing-2015-jos-alcrreca): how to test!.
 * [Espresso tests "architecture"](http://room-15.github.io/blog/2015/03/19/adventures-in-espresso-p2/): give ideas about how to write tests in a clean and structured way (tests are code at the end... someone will maintain them).
-* [Improving UX through performance](https://speakerdeck.com/rejasupotaro/improving-ux-through-performance): explain which libraries they use to get images, improve performance on networking and memory management :).
 * [Task and document api](https://speakerdeck.com/mathieu_calba/task-and-document-api): explains how android manage activities and tasks.
 * [GCM to optimize battery](https://www.bignerdranch.com/blog/optimize-battery-life-with-androids-gcm-network-manager): clear explanation for GCM use to do requests and save battery.
+* [Modal Bottom Sheet tutorial](http://www.devexchanges.info/2016/03/modal-bottom-sheet-with-material-design.html): shows how to create a BottomSheetDialogFragment and show it clearly.
+
+# Tutorial Series
+* [Retrofit Series](https://futurestud.io/tutorials/retrofit-getting-started-and-android-client): 50+ part series on Retrofit
+* [Picasso Series](https://futurestud.io/tutorials/picasso-getting-started-simple-loading): 20+ part series on Picasso
+* [Glide Series](https://futurestud.io/tutorials/glide-getting-started): 25+ part series on Glide
+* [Gson Series](https://futurestud.io/tutorials/gson-getting-started-with-java-json-serialization-deserialization): 30+ part series on Gson
 
 # Open Source Apps
 * [Google IO 2014 compat example](https://github.com/rahulparsani/google-io-2014-compat): Google IO app from 2014!.
@@ -66,7 +78,7 @@ You can find interesting posts, tools, plugins, open source apps, everything tha
 # Courses
 * [Free/paid - OFFICIAL GOOGLE - Udacity](https://www.udacity.com/google): Google android official courses and nanodegree.
 * [Free - Codepath Android Wiki](https://github.com/codepath/android_guides): guides for android dev from codepath guys.
-* [Free - New Circle Courses](https://newcircle.com/category/android): New circle courses for android.
+* [Free - New Circle Courses](https://www.protechtraining.com/training/browse/front-end-web-mobile-development?ncr=1): New circle courses for android.
 
 # Tools
 ## Chrome
@@ -75,8 +87,8 @@ You can find interesting posts, tools, plugins, open source apps, everything tha
 ## Mac
 * [Android Tool](https://github.com/mortenjust/androidtool-mac): easy take iOS and Android screenshots.
 * [Image optim](https://imageoptim.com/es.html): Make your assets smaller. `#brew cask install imageoptim`.
-* [Sip](https://itunes.apple.com/co/app/sip/id507257563?l=en&mt=12): cool color picker.
 * [Alfi](https://github.com/cesarferreira/alfi): check new versions for your dependencies from terminal.
+* [romannurik/MaterialColorsApp](https://github.com/romannurik/MaterialColorsApp): awesome color picker with material design in mind to guide you picking the right colors.
 
 ## Web
 * [Adobe color](https://color.adobe.com/create/color-wheel): helps to define colors pallete for our apps.
@@ -101,7 +113,6 @@ You can find interesting posts, tools, plugins, open source apps, everything tha
 # Other Awesomes (categorized list of awesome links)
 * [Android community](https://github.com/tonilopezmr/android-community): list of videos.
 * [android-blogs](https://github.com/vbauer/android-blogs): List with blogs about Android.
-* [Android libs](https://android-libs.com): simple list of avialable libs.
 * [Android Arsenal](android-arsenal.com): list of available open libs with GUI, comments and so on.
 * [Github - snowdream awesome](https://github.com/snowdream/awesome-android): Categorized awesome.
 * [Github - wasabeef awesome ui](https://github.com/wasabeef/awesome-android-ui): Categorized awesome.
